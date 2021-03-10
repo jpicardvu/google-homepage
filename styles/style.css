@@ -1,41 +1,127 @@
-
 html {
-  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
-  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  font-family: "Arial", sans-serif;
+  color: #222222;
+  font-size: 13px;
 }
 
-h1 {
+#header {
+  position: relative;
+  padding: 11px;
+}
+
+#header .left {
+  float: left;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+#header .left:hover {
+  text-decoration: underline;
+}
+
+#header .right {
+  float: right;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+#header .right:hover {
+  text-decoration: underline;
+}
+
+#main {
+  position: absolute;
+  top: 230px;
+  left: 50%;
   margin: 0;
-  padding: 50px 0;
-  color: #9f0000;
-  text-shadow: 3px 3px 1px black;
+  transform: translate(-50%);
+  text-align: center;
 }
 
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+#main img {
+
 }
-img {
+
+#main form {
+  display: inline;
+}
+
+#main a {
+  text-decoration: none;
+}
+
+#main a:hover {
+  text-decoration: underline;
+}
+
+#main input{
+  width: 100%;
   display: block;
-  margin: 0 auto;
-  width: 600px
+}
+
+#main button {
+  position: relative;
+  top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+} 
+
+#footer-lower {
+  background-color: #f2f2f2;
+  border: 1px solid #dadce0;
+  border-width: 1px;
+  font-size: 14px;
+  padding: 0;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+#footer-upper {
+  background-color: #f2f2f2;
+  border: 1px solid #dadce0;
+  border-width: 1px;
+  font-size: 14px;
+  padding: 0;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 44.6px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+#footer-lower > ul, #footer-upper > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer-lower a, #footer-upper li {
+  color: #0000008A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+#footer-lower a:hover{
+  text-decoration: underline;
 }
-
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #FF9500;
-  padding: 20px 20px 20px 20px;
-  border: 5px solid black;
-}
-
-Positioning and styling the main page title
-
