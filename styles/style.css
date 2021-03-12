@@ -1,7 +1,7 @@
 html {
   font-family: "arial", sans-serif;
   color: #222222;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 #header {
@@ -30,7 +30,7 @@ html {
   text-decoration: none;
   font-family: inherit;
   color: inherit;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 #header .right:hover {
@@ -48,7 +48,10 @@ html {
   padding: 9px 23px;
   border: 1px;
   border-radius: 4px;
-  font-size: 13px;
+  font-size: 14px;
+  width: 48px;
+  height: 16px;
+  text-align: center;
 }
 
 #header .right-button:hover {
@@ -66,7 +69,7 @@ html {
 
 #main {
   position: absolute;
-  top: 235px;
+  top: 255px;
   left: 50%;
   margin: 0;
   transform: translate(-50%);
@@ -74,9 +77,8 @@ html {
 }
 
 #main img {
-  width: 248.35px;
-  height:84px;
-
+  width: 272px;
+  height:92px;
 }
 
 #main form {
@@ -114,7 +116,7 @@ html {
   height: 34px;
   width: 142.36px;
   color: #202124;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 #main button:hover {
